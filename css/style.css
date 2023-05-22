@@ -8,6 +8,9 @@
 .custom-color {
   color: #2c98f0;
 }
+.custom-contact{
+  padding-top: 10px;
+}
 
 .skills-wrap{
   align: center;
@@ -434,8 +437,6 @@ body.offcanvas {
 .colorlib-education,
 .colorlib-blog,
 .colorlib-work,
-.colorlib-about,
-.colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -453,6 +454,20 @@ body.offcanvas {
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
+
+.colorlib-services,
+.colorlib-about{
+  padding-top: 2em;
+  padding-bottom: 0em;
+  clear: both;
+  width: 100%;
+  display: block; 
+}
+@media screen and (max-width: 768px) {
+  .colorlib-services,
+  .colorlib-about {
+    padding-top: 0em;
+    padding-bottom: 1em; } }
 
 .author-img {
   background-size: cover;
